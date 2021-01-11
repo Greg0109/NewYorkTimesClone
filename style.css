@@ -32,11 +32,13 @@ nav > img {
     font-weight: 10;
     width: 90%;
     font-size: 15px;
+    color: #666;
 }
 
 #author {
     font-weight: 80;
     font-size: 12px;
+    color: #888;
 }
 
 h1 {
