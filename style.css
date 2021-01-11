@@ -1,0 +1,66 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    /* color: #333; */
+}
+
+header {
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > img {
+    width: 40%;
+}
+
+#main-image {
+    width: 90%;
+    height: auto;
+}
+
+#footer-media-text {
+    font-family: 'nyt-imperial';
+    font-weight: 10;
+    width: 90%;
+    font-size: 15px;
+}
+
+#author {
+    font-weight: 80;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    font-family: 'nyt-imperial';
+}
+
+section > p {
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+#subtitle {
+    font-weight: bold;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
