@@ -14,13 +14,18 @@ body {
 }
 
 header {
-
+    margin-top: 100px;
 }
 
 nav {
     display: flex;
+    position: fixed;
+    top:0;
+    clear: bottom;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 nav > img {
