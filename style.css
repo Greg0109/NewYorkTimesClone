@@ -34,7 +34,7 @@ header > hgroup > h1 {
 }
 
 .socialbuttonscircle {
-    margin-left: 5px;
+    margin-left: 15px;
     color: black;
     vertical-align: middle;
     background-color: rgb(238, 238, 238);
@@ -144,6 +144,14 @@ nav {
     font-weight: 10;
     width: 90%;
     font-size: 15px;
+    color: #666;
+}
+
+.article-footer-text {
+    font-family: 'nyt-franklin';
+    font-weight: 10;
+    width: 90%;
+    font-size: 12px;
     color: #666;
 }
 
@@ -318,6 +326,7 @@ footer > div > a {
     font-weight:bold;
     background-color: #567B95;
     border-radius: 4px;
+    border:none;
     margin-bottom: 30px;
     margin-right: 50px;
 }
