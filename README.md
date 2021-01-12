@@ -16,9 +16,9 @@
 
 👤 **Ryel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ryelbanfield)
+- Twitter: [@twitterhandle](https://twitter.com/ryelbanfield)
+- LinkedIn: [LinkedIn](https://linkedin.com/ryelbanfield)
 
 ## Contributing
 
