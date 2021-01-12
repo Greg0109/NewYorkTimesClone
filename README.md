@@ -1,6 +1,9 @@
 # Project 1 - New York Times Article Copy
 
-> This is the project 1 in the Microverse course, yay!
+> This is the Project 1 in the Microverse course
+
+### View in browser
+[Link](https://greg0109.github.io/NewYorkTimesClone/)
 
 ## Built With
 
