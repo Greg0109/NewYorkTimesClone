@@ -4,8 +4,13 @@
     box-sizing: border-box;
 } */
 
+/* * {
+    border: 1px solid black;
+} */
+
 body {
-    /* color: #333; */
+    color: #333;
+    font-family: 'nyt-imperial';
 }
 
 header {
@@ -23,12 +28,18 @@ nav > img {
 }
 
 #main-image {
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #main-image {
+        width: 60%;
+        height: auto;
+    }
+  }
+
 .footer-media-text {
-    font-family: 'nyt-imperial';
     font-weight: 10;
     width: 90%;
     font-size: 15px;
@@ -47,7 +58,7 @@ h1 {
 
 section {
     text-align: left;
-    width: 60%;
+    width: 600px;
     margin: auto;
     font-family: 'nyt-imperial';
 }
@@ -69,4 +80,130 @@ img {
 
 .textlink {
     color: #888
+}
+
+footer {
+    /* width: 100%; */
+    border-top: 1px solid #666;
+    padding-top: 10px;
+    font-family: 'nyt-franklin';
+    font-size: 13px;
+}
+
+hr {
+    opacity: 50%;
+}
+
+footer > div > a {
+    text-decoration: none;
+}
+
+#nyt-logo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+#nyt-logo-container > a {
+    color: #666;
+}
+
+#nyt-logo {
+    width: 20%;
+}
+
+#main-footer-links, #bottom-links {
+    list-style-type: none;
+}
+
+
+#bottom-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-link {
+    color: #888;
+}
+
+.footer-link, #copyright-text > a, .bottom-link {
+    text-decoration: none;
+    font-size: 70%;
+}
+
+.footer-link {
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#copyright-text {
+    text-align: center;
+}
+
+#copyright-text > a {
+    color: #888;
+}
+
+#second-image {
+    width: 850px;
+    height: 650px;
+    padding-bottom: 100px;
+}
+
+#image-flex {
+    width: 100%;
+    height: 100%;
+    background: url("assets/second-image-notext.png");
+    background-size:contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#first-flex-box {
+    display:block;
+}
+
+#subtitle-flex {
+    align-self:flex-start;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#upper-paragraph-flex {
+    order:2;
+    font-size:14px;
+    font-weight: 100;
+    color: #666;
+}
+
+#second-flex-box {
+    padding-top: 110px;
+    display:flex;
+    font-size:14px;
+}
+
+#third-flex-box {
+    padding-top:100px;
+    display:flex;
+    font-size:14px;
+}
+
+#fourth-flex-box {
+    display:flex;
+}
+
+.text-flex {
+    font-family:'nyt-franklin';
+    font-weight: 200;
+    font-style: normal;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:14px;
+
+}
+
+.bold-text-flex {
+    font-weight: bold;
 }
