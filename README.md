@@ -16,8 +16,8 @@
 
 👤 **Ryel**
 
-- GitHub: [@ryelbanfield](https://github.com/ryelbanfield)
-- Twitter: [@ryelbanfield](https://twitter.com/ryelbanfield)
+<!-- - GitHub: [@ryelbanfield](https://github.com/ryelbanfield)
+- Twitter: [@ryelbanfield](https://twitter.com/ryelbanfield) -->
 
 ## Contributing
 
