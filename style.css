@@ -17,6 +17,13 @@ header {
     margin-top: 100px;
 }
 
+header > hgroup > h1 {
+    font-family: 'nyt-cheltenham';
+    font-style:italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 nav {
     display: flex;
     position: fixed;
@@ -211,4 +218,14 @@ footer > div > a {
 
 .bold-text-flex {
     font-weight: bold;
+}
+
+#commentbutton {
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-weight:bold;
+    background-color: #567B95;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
