@@ -1,70 +1,8 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid black;
-} */
+/* Top elements (Nav bar and header) */
 
 body {
     color: #333;
     font-family: 'nyt-imperial';
-}
-
-header {
-    margin-top: 100px;
-    align-items: center;
-}
-
-header > hgroup > h1 {
-    font-family: 'nyt-cheltenham';
-    font-style: italic;
-    font-weight: bold;
-    width: 600px;
-    height: auto;
-    align-items: center;
-    text-align: left;
-    font-size: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.social-buttons {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.socialbuttonscircle {
-    margin-left: 15px;
-    color: black;
-    vertical-align: middle;
-    background-color: rgb(238, 238, 238);
-    border: 1px rgb(238, 238, 238);
-    border-radius: 100%;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-}
-
-#commentbuttontop {
-    background-image: url("assets/commentsbutton.png");
-    background-size:contain;
-    background-position: top;
-    background-repeat: no-repeat;
-    width: 45px;
-    height: 45px;
-    border: none;
-    background-color: white;
-}
-
-#bookmark {
-    color: black;
-    vertical-align: middle;
-    background-color: rgba(238, 238, 238, 0);
-    border: 1px rgb(238, 238, 238);
-    border-radius: 100%;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
 }
 
 nav {
@@ -116,10 +54,82 @@ nav {
     font-size: 15px;
 }
 
+header {
+    margin-top: 100px;
+    align-items: center;
+}
+
+header > hgroup > h1 {
+    font-family: 'nyt-cheltenham';
+    font-style: italic;
+    font-weight: bold;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    text-align: left;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    /* This is the title*/
+    text-align: center;
+}
+
+.social-buttons {
+    /* This also includes the social buttons at the bottom */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.socialbuttonscircle {
+    margin-left: 15px;
+    color: black;
+    vertical-align: middle;
+    background-color: rgb(238, 238, 238);
+    border: 1px rgb(238, 238, 238);
+    border-radius: 100%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#commentbuttontop {
+    background-image: url("assets/commentsbutton.png");
+    background-size:contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: white;
+}
+
+#bookmark {
+    color: black;
+    vertical-align: middle;
+    background-color: rgba(238, 238, 238, 0);
+    border: 1px rgb(238, 238, 238);
+    border-radius: 100%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Article body (Images and text) */
+
 #main-image {
     width: 100%;
     height: auto;
 }
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+    #main-image {
+        width: 60%;
+        height: auto;
+    }
+  }
 
 #mainauthor, #mainauthor > a {
     font-family: 'nyt-franklin';
@@ -133,39 +143,23 @@ nav {
     font-size: 13px;
 }
 
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-    #main-image {
-        width: 60%;
-        height: auto;
-    }
-  }
-
 .footer-media-text {
+    /* This is the text at that go with the media */
     font-weight: 10;
     width: 90%;
     font-size: 15px;
     color: #666;
 }
 
-.article-footer-text {
-    font-family: 'nyt-franklin';
-    font-weight: 10;
-    width: 90%;
-    font-size: 12px;
-    color: #666;
-}
-
 .author {
+    /* This is the author of the media */
     font-weight: 80;
     font-size: 12px;
     color: #888;
 }
 
-h1 {
-    text-align: center;
-}
-
 section {
+    /* This is the text of the article */
     text-align: left;
     width: 600px;
     margin: auto;
@@ -178,6 +172,7 @@ section > p {
 }
 
 #subtitle {
+    /* Start of each part of the text (bold text)  */
     font-weight: bold;
     text-align: left;
 }
@@ -187,8 +182,95 @@ img {
     height: 100%;
 }
 
+/* This is the flexbox of the diagram */
+
+#second-image {
+    width: 850px;
+    height: 650px;
+    padding-bottom: 100px;
+}
+
+#image-flex {
+    width: 100%;
+    height: 100%;
+    background: url("assets/second-image-notext.png");
+    background-size:contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#first-flex-box {
+    display:block;
+}
+
+#subtitle-flex {
+    align-self:flex-start;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#upper-paragraph-flex {
+    order:2;
+    font-size:14px;
+    font-weight: 100;
+    color: #666;
+}
+
+#second-flex-box {
+    padding-top: 110px;
+    display:flex;
+    font-size:14px;
+}
+
+#third-flex-box {
+    padding-top:100px;
+    display:flex;
+    font-size:14px;
+}
+
+#fourth-flex-box {
+    display:flex;
+}
+
+.text-flex {
+    font-family:'nyt-franklin';
+    font-weight: 200;
+    font-style: normal;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:14px;
+
+}
+
+.bold-text-flex {
+    font-weight: bold;
+}
+
+/* Bottom part of the article */
+
+#commentbutton {
+    clear: bottom;
+    color: white;
+    width: 300px;
+    height: 35px;
+    font-weight:bold;
+    background-color: #567B95;
+    border-radius: 4px;
+    border:none;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
 .textlink {
     color: #888
+}
+
+.article-footer-text {
+    font-family: 'nyt-franklin';
+    font-weight: 10;
+    width: 90%;
+    font-size: 12px;
+    color: #666;
 }
 
 footer {
@@ -254,79 +336,4 @@ footer > div > a {
 
 #copyright-text > a {
     color: #888;
-}
-
-#second-image {
-    width: 850px;
-    height: 650px;
-    padding-bottom: 100px;
-}
-
-#image-flex {
-    width: 100%;
-    height: 100%;
-    background: url("assets/second-image-notext.png");
-    background-size:contain;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-#first-flex-box {
-    display:block;
-}
-
-#subtitle-flex {
-    align-self:flex-start;
-    font-size:20px;
-    font-weight: bold;
-}
-
-#upper-paragraph-flex {
-    order:2;
-    font-size:14px;
-    font-weight: 100;
-    color: #666;
-}
-
-#second-flex-box {
-    padding-top: 110px;
-    display:flex;
-    font-size:14px;
-}
-
-#third-flex-box {
-    padding-top:100px;
-    display:flex;
-    font-size:14px;
-}
-
-#fourth-flex-box {
-    display:flex;
-}
-
-.text-flex {
-    font-family:'nyt-franklin';
-    font-weight: 200;
-    font-style: normal;
-    margin-left:15px;
-    margin-right:15px;
-    font-size:14px;
-
-}
-
-.bold-text-flex {
-    font-weight: bold;
-}
-
-#commentbutton {
-    clear: bottom;
-    color: white;
-    width: 300px;
-    height: 35px;
-    font-weight:bold;
-    background-color: #567B95;
-    border-radius: 4px;
-    border:none;
-    margin-bottom: 30px;
-    margin-right: 50px;
 }
