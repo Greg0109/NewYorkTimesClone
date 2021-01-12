@@ -34,7 +34,7 @@ header > hgroup > h1 {
 }
 
 .socialbuttonscircle {
-    margin-left: 3px;
+    margin-left: 5px;
     color: black;
     vertical-align: middle;
     background-color: rgb(238, 238, 238);
@@ -43,6 +43,17 @@ header > hgroup > h1 {
     padding: 5px;
     width: 30px;
     height: 30px;
+}
+
+#commentbuttontop {
+    background-image: url("assets/commentsbutton.png");
+    background-size:contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: white;
 }
 
 #bookmark {
@@ -110,6 +121,18 @@ nav {
     height: auto;
 }
 
+#mainauthor, #mainauthor > a {
+    font-family: 'nyt-franklin';
+    font-size: 15px;
+    font-weight:bold;
+    color: black;
+}
+
+.time {
+    font-family: 'nyt-franklin';
+    font-size: 13px;
+}
+
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
     #main-image {
         width: 60%;
@@ -164,7 +187,7 @@ footer {
     border-top: 1px solid #666;
     padding-top: 10px;
     font-family: 'nyt-franklin';
-    font-size: 13px;
+    font-size: 15px;
 }
 
 hr {
@@ -198,6 +221,8 @@ footer > div > a {
 #bottom-links {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .bottom-link {
