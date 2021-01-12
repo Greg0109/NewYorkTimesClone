@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    
+
 }
 
 nav {
@@ -27,7 +27,7 @@ nav > img {
     height: auto;
 }
 
-#footer-media-text {
+.footer-media-text {
     font-family: 'nyt-imperial';
     font-weight: 10;
     width: 90%;
@@ -35,7 +35,7 @@ nav > img {
     color: #666;
 }
 
-#author {
+.author {
     font-weight: 80;
     font-size: 12px;
     color: #888;
@@ -65,4 +65,8 @@ section > p {
 img {
     width: 100%;
     height: 100%;
+}
+
+.textlink {
+    color: #888
 }
