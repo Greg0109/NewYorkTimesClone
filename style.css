@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
-
-/* * {
     border: 1px solid black;
 } */
 
@@ -15,13 +12,48 @@ body {
 
 header {
     margin-top: 100px;
+    align-items: center;
 }
 
 header > hgroup > h1 {
     font-family: 'nyt-cheltenham';
-    font-style:italic;
+    font-style: italic;
     font-weight: bold;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    text-align: left;
     font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.socialbuttonscircle {
+    margin-left: 3px;
+    color: black;
+    vertical-align: middle;
+    background-color: rgb(238, 238, 238);
+    border: 1px rgb(238, 238, 238);
+    border-radius: 100%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#bookmark {
+    color: black;
+    vertical-align: middle;
+    background-color: rgba(238, 238, 238, 0);
+    border: 1px rgb(238, 238, 238);
+    border-radius: 100%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
 }
 
 nav {
@@ -33,10 +65,44 @@ nav {
     align-items: center;
     background-color: rgb(255, 255, 255);
     width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    top: 0;
+    left: 0;
 }
 
-nav > img {
-    width: 40%;
+#nav-text {
+    margin-left: 30px;
+    font-weight: 700;
+    letter-spacing: 0.7;
+    line-height: 15px;
+}
+
+#nyt-logo {
+    width: 10%;
+}
+
+#subscribe-button {
+    display: flex;
+    margin-right: 30px;
+}
+
+#subscribe-button > button {
+    margin: 10px;
+    border-radius: 3px;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+}
+
+#subscribe-button > p {
+    color: rgb(18, 18, 18);
+    font-family: 'nyt-franklin, helvetica, arial, sans-serif';
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #main-image {
@@ -95,7 +161,6 @@ img {
 }
 
 footer {
-    /* width: 100%; */
     border-top: 1px solid #666;
     padding-top: 10px;
     font-family: 'nyt-franklin';
@@ -221,6 +286,7 @@ footer > div > a {
 }
 
 #commentbutton {
+    clear: bottom;
     color: white;
     width: 300px;
     height: 35px;
@@ -228,4 +294,5 @@ footer > div > a {
     background-color: #567B95;
     border-radius: 4px;
     margin-bottom: 30px;
+    margin-right: 50px;
 }
