@@ -74,7 +74,7 @@ header {
   align-items: center;
 }
 
-header > hgroup > div {
+header > .titlecontainer > div {
   font-family: "nyt-cheltenham";
   font-style: italic;
   font-weight: bold;
@@ -176,7 +176,7 @@ section > p {
   line-height: 1.4em;
 }
 
-#subtitle {
+.subtitle {
   /* Start of each part of the text (bold text)  */
   font-weight: bold;
   text-align: left;
@@ -403,20 +403,20 @@ hr {
   color: #666;
 }
 
-#nyt-logo-footer {
+.nyt-logo-footer {
   width: 20%;
 }
 
-#main-footer-links,
-#bottom-links {
+#main-footer-links {
   list-style-type: none;
 }
 
-#bottom-links {
+.bottom-links {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   font-weight: 500;
+  list-style-type: none;
 }
 
 .bottom-link {
@@ -480,12 +480,12 @@ hr {
   list-style: none;
 }
 
-#copyright-text {
+.copyright-text {
   clear: left;
   text-align: center;
 }
 
-#copyright-text > a {
+.copyright-text > a {
   text-decoration: none;
   font-size: 70%;
   color: #888;
