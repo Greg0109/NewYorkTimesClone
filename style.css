@@ -490,6 +490,7 @@ hr {
 #small-footer {
   visibility: visible;
 }
+
 #wide-footer {
   visibility: hidden;
   display: none;
@@ -501,22 +502,27 @@ hr {
   footer {
     width: 60%;
   }
+
   #small-footer {
     visibility: hidden;
     display: none;
   }
+
   #wide-footer {
     visibility: visible;
     display: contents;
   }
+
   #main-image {
     width: 60%;
     height: auto;
   }
+
   #suggested-articles {
     margin-left: 30%;
     width: 100%;
   }
+
   #most-popular {
     width: 17.9%;
   }
