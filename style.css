@@ -3,6 +3,7 @@
 body {
   color: #333;
   font-family: "nyt-imperial";
+  max-width: 100%;
 }
 
 nav {
@@ -274,6 +275,110 @@ img {
   color: #888;
 }
 
+/* Suggested articles */
+
+#suggested-articles {
+  display: flex;
+  width: 80%;
+  margin-left: -30px;
+}
+
+#space-and-astronomy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#editors-picks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#editors-picks {
+  padding-bottom: 150px;
+}
+
+#editors-picks > ul > li {
+  margin: 20px;
+}
+
+#suggested-articles > div > div > h2,
+#most-popular > h2 {
+  font-family: "nty-franklin";
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 40px;
+  border-top: 1px black solid;
+  padding-top: 15px;
+}
+
+#most-popular > ul > li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px rgba(153, 153, 153, 0.801) solid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 250px;
+}
+
+@media all and (max-width: 699px) and (min-width: 520px),
+  (min-width: 1151px),
+  (min-width: 1400px) {
+  #suggested-articles {
+    margin-left: 30%;
+    width: 100%;
+  }
+  #most-popular {
+    width: 17.9%;
+  }
+}
+
+#suggested-articles > div > div > ul,
+#suggested-articles > div > ul {
+  list-style-type: none;
+}
+
+#space-and-astronomy > ul > li {
+  padding-bottom: 150px;
+}
+
+#suggested-articles > div > div > ul > li {
+  width: 272px;
+  height: 181px;
+}
+
+.suggested-source {
+  font-family: "nyt-cheltenham-small";
+  font-size: 10px;
+  text-align: right;
+  color: #999;
+  margin-bottom: 0;
+}
+
+.suggested-title > a,
+#most-popular > ul > li > a {
+  font-family: "nyt-cheltenham";
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.suggested-date {
+  font-family: "nyt-franklin";
+  font-size: 10px;
+  color: #999;
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Footer */
+
 .article-footer-text {
   font-family: "nyt-franklin";
   font-weight: 10;
@@ -306,7 +411,15 @@ footer > div > a {
   margin: auto;
 }
 
-#nyt-logo-container > a {
+#nyt-logo-container-small {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+#nyt-logo-container > a,
+#nyt-logo-container-small > a {
   color: #666;
 }
 
@@ -356,6 +469,11 @@ footer > div > a {
 .item {
   list-style: none;
   text-decoration: none;
+}
+
+.subscribebox > .footer-list {
+  border-left: 0.5px solid grey;
+  padding-left: 5px;
 }
 
 #copyright-text {
