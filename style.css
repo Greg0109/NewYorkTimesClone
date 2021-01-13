@@ -1,16 +1,12 @@
-/* Top elements (Nav bar and header) */
-
 body {
   color: #333;
-  font-family: "nyt-imperial";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   max-width: 100%;
 }
 
 nav {
   display: flex;
   position: fixed;
-  top: 0;
-  clear: bottom;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
@@ -34,7 +30,7 @@ nav {
   margin-right: 70%;
   font-weight: 700;
   width: 200px;
-  letter-spacing: 0.7;
+  letter-spacing: 0.7px;
   line-height: 15px;
 }
 
@@ -62,6 +58,11 @@ nav {
   letter-spacing: 0.05em;
 }
 
+section > p {
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
 #subscribe-button > p {
   color: rgb(18, 18, 18);
   font-family: "nyt-franklin, helvetica, arial, sans-serif";
@@ -75,7 +76,7 @@ header {
 }
 
 header > .titlecontainer > div {
-  font-family: "nyt-cheltenham";
+  font-family: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
   font-style: italic;
   font-weight: bold;
   width: 600px;
@@ -88,7 +89,6 @@ header > .titlecontainer > div {
 }
 
 .social-buttons {
-  /* This also includes the social buttons at the bottom */
   display: flex;
   margin-bottom: 20px;
 }
@@ -127,28 +127,66 @@ header > .titlecontainer > div {
   height: 30px;
 }
 
-/* Article body (Images and text) */
-
 #main-image {
   width: 100%;
   height: auto;
 }
 
+.subscribe-item > a {
+  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
+    "arial", "sans-serif";
+  font-size: 11px;
+  font-weight: 100;
+  color: black;
+  text-decoration: none;
+}
+
+.copyright-text > a {
+  text-decoration: none;
+  font-size: 70%;
+  color: #888;
+}
+
+.item > a {
+  color: black;
+  text-decoration: none;
+}
+
+#nyt-logo-container > a,
+#nyt-logo-container-small > a {
+  color: #666;
+}
+
+#small-footer > div > a,
+#wide-footer > div > a {
+  text-decoration: none;
+}
+
+.suggested-title > a,
+#most-popular > ul > li > a {
+  font-family: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #mainauthor,
 #mainauthor > a {
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 15px;
   font-weight: bold;
   color: black;
 }
 
 .time {
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 13px;
 }
 
 .footer-media-text {
-  /* This is the text at that go with the media */
   font-weight: 10;
   width: 90%;
   font-size: 15px;
@@ -156,39 +194,28 @@ header > .titlecontainer > div {
 }
 
 .author {
-  /* This is the author of the media */
   font-weight: 80;
   font-size: 12px;
   color: #888;
 }
 
 section {
-  /* This is the text of the article */
   text-align: left;
   width: 600px;
   margin: auto;
-  font-family: "nyt-imperial";
-}
-
-section > p {
-  /* This is the font size and line height for the main body of the article */
-  font-size: 20px;
-  line-height: 1.4em;
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
 }
 
 .subtitle {
-  /* Start of each part of the text (bold text)  */
   font-weight: bold;
   text-align: left;
 }
 
 img {
-  /* set size of image depending on inhereted size */
   width: 100%;
   height: 100%;
 }
 
-/* This is the flexbox of the diagram */
 #second-image {
   width: 850px;
   height: 650px;
@@ -238,7 +265,7 @@ img {
 }
 
 .text-flex {
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-weight: 200;
   font-style: normal;
   margin-left: 15px;
@@ -250,9 +277,7 @@ img {
   font-weight: bold;
 }
 
-/* Bottom part of the article */
 #commentbutton {
-  clear: bottom;
   color: white;
   width: 300px;
   height: 35px;
@@ -268,7 +293,6 @@ img {
   color: #888;
 }
 
-/* Suggested articles */
 #suggested-articles {
   display: flex;
   width: 80%;
@@ -297,8 +321,8 @@ img {
 }
 
 h2 {
-  /* We only used the h2 tag here */
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
+    "arial", "sans-serif";
   font-size: 16px;
   text-align: left;
   font-weight: bold;
@@ -316,8 +340,8 @@ h2 {
   width: 250px;
 }
 
-#suggested-articles > div > div > ul,
-#suggested-articles > div > ul {
+#suggested-articles > div > ul,
+#suggested-articles > div > div > ul {
   list-style-type: none;
 }
 
@@ -331,35 +355,23 @@ h2 {
 }
 
 .suggested-source {
-  font-family: "nyt-cheltenham-small";
+  font-family: "nyt-cheltenham-small ,georgia , 'times new roman' , times, serif";
   font-size: 10px;
   text-align: right;
   color: #999;
   margin-bottom: 0;
 }
 
-.suggested-title > a,
-#most-popular > ul > li > a {
-  font-family: "nyt-cheltenham";
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .suggested-date {
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 10px;
   color: #999;
   text-align: left;
   margin-top: 0;
 }
 
-/* Footer */
 .article-footer-text {
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-weight: 10;
   width: 90%;
   font-size: 12px;
@@ -369,7 +381,7 @@ h2 {
 footer {
   border-top: 1px solid #666;
   padding-top: 10px;
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 15px;
   width: 100%;
   margin: auto;
@@ -391,16 +403,6 @@ hr {
   justify-content: space-between;
   width: 95%;
   margin: auto;
-}
-
-#small-footer > div > a,
-#wide-footer > div > a {
-  text-decoration: none;
-}
-
-#nyt-logo-container > a,
-#nyt-logo-container-small > a {
-  color: #666;
 }
 
 .nyt-logo-footer {
@@ -440,18 +442,14 @@ hr {
 .item {
   list-style: none;
   text-decoration: none;
-  font-family: "nyt-franklin";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 14px;
   padding-top: 10px;
 }
 
-.item > a {
-  color: black;
-  text-decoration: none;
-}
-
 .icon-item {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
+    "arial", "sans-serif";
   font-size: 16px;
   font-weight: bolder;
 }
@@ -460,13 +458,6 @@ hr {
   list-style: none;
   padding-top: 7px;
 }
-.subscribe-item > a {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
-  font-size: 11px;
-  font-weight: 100;
-  color: black;
-  text-decoration: none;
-}
 
 .subscribebox > .footer-list {
   border-left: 0.5px solid grey;
@@ -474,7 +465,8 @@ hr {
 }
 
 .list-header {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
+  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
+    "arial", "sans-serif";
   font-size: 14px;
   font-weight: bolder;
   list-style: none;
@@ -485,12 +477,6 @@ hr {
   text-align: center;
 }
 
-.copyright-text > a {
-  text-decoration: none;
-  font-size: 70%;
-  color: #888;
-}
-
 #small-footer {
   visibility: visible;
 }
@@ -499,7 +485,6 @@ hr {
   display: none;
 }
 
-/* Media query to adjust to different size of the screen */
 @media all and (max-width: 699px) and (min-width: 520px),
   (min-width: 1151px),
   (min-width: 1400px) {
