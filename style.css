@@ -134,13 +134,6 @@ header > hgroup > div {
   height: auto;
 }
 
-@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
-  #main-image {
-    width: 60%;
-    height: auto;
-  }
-}
-
 #mainauthor,
 #mainauthor > a {
   font-family: "nyt-franklin";
@@ -178,6 +171,7 @@ section {
 }
 
 section > p {
+  /* This is the font size and line height for the main body of the article */
   font-size: 20px;
   line-height: 1.4em;
 }
@@ -189,12 +183,12 @@ section > p {
 }
 
 img {
+  /* set size of image depending on inhereted size */
   width: 100%;
   height: 100%;
 }
 
 /* This is the flexbox of the diagram */
-
 #second-image {
   width: 850px;
   height: 650px;
@@ -257,7 +251,6 @@ img {
 }
 
 /* Bottom part of the article */
-
 #commentbutton {
   clear: bottom;
   color: white;
@@ -276,7 +269,6 @@ img {
 }
 
 /* Suggested articles */
-
 #suggested-articles {
   display: flex;
   width: 80%;
@@ -304,8 +296,8 @@ img {
   margin: 20px;
 }
 
-#suggested-articles > div > div > h2,
-#most-popular > h2 {
+h2 {
+  /* We only used the h2 tag here */
   font-family: "nyt-franklin", "helvetica", "arial", "sans-serif";
   font-size: 16px;
   text-align: left;
@@ -322,18 +314,6 @@ img {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 250px;
-}
-
-@media all and (max-width: 699px) and (min-width: 520px),
-  (min-width: 1151px),
-  (min-width: 1400px) {
-  #suggested-articles {
-    margin-left: 30%;
-    width: 100%;
-  }
-  #most-popular {
-    width: 17.9%;
-  }
 }
 
 #suggested-articles > div > div > ul,
@@ -378,7 +358,6 @@ img {
 }
 
 /* Footer */
-
 .article-footer-text {
   font-family: "nyt-franklin";
   font-weight: 10;
@@ -398,10 +377,6 @@ footer {
 
 hr {
   opacity: 50%;
-}
-
-footer > div > a {
-  text-decoration: none;
 }
 
 #nyt-logo-container {
@@ -446,11 +421,6 @@ footer > div > a {
 
 .bottom-link {
   color: #888;
-}
-
-.footer-link,
-#copyright-text > a,
-.bottom-link {
   text-decoration: none;
   font-size: 70%;
 }
@@ -459,6 +429,7 @@ footer > div > a {
   color: black;
   font-size: 100%;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #linksbox {
@@ -472,6 +443,11 @@ footer > div > a {
   font-family: "nyt-franklin";
   font-size: 14px;
   padding-top: 10px;
+}
+
+.item > a {
+  color: black;
+  text-decoration: none;
 }
 
 .icon-item {
@@ -510,6 +486,8 @@ footer > div > a {
 }
 
 #copyright-text > a {
+  text-decoration: none;
+  font-size: 70%;
   color: #888;
 }
 
@@ -521,11 +499,7 @@ footer > div > a {
   display: none;
 }
 
-.item > a {
-  color: black;
-  text-decoration: none;
-}
-
+/* Media query to adjust to different size of the screen */
 @media all and (max-width: 699px) and (min-width: 520px),
   (min-width: 1151px),
   (min-width: 1400px) {
@@ -539,5 +513,16 @@ footer > div > a {
   #wide-footer {
     visibility: visible;
     display: contents;
+  }
+  #main-image {
+    width: 60%;
+    height: auto;
+  }
+  #suggested-articles {
+    margin-left: 30%;
+    width: 100%;
+  }
+  #most-popular {
+    width: 17.9%;
   }
 }
