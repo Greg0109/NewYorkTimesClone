@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "nyt";
+  src: url(https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css);
+}
+
 body {
   color: #333;
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   max-width: 100%;
 }
 
@@ -65,7 +70,7 @@ section > p {
 
 #subscribe-button > p {
   color: rgb(18, 18, 18);
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-weight: 500;
   font-size: 15px;
 }
@@ -76,8 +81,7 @@ header {
 }
 
 header > .titlecontainer > div {
-  font-family: "nyt-cheltenham", "georgia", "times new roman", "times", "serif",
-    "calibri";
+  font-family: "nyt-cheltenham";
   font-style: italic;
   font-weight: bold;
   width: 600px;
@@ -134,7 +138,7 @@ header > .titlecontainer > div {
 }
 
 .subscribe-item > a {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 11px;
   font-weight: 100;
   color: black;
@@ -153,8 +157,7 @@ header > .titlecontainer > div {
 }
 
 .suggested-title > a {
-  font-family: "nyt-cheltenham", "georgia", "times new roman", "times", "serif",
-    "calibri";
+  font-family: "nyt-cheltenham";
   font-size: 18px;
   color: black;
   text-decoration: none;
@@ -165,7 +168,7 @@ header > .titlecontainer > div {
 
 #mainauthor,
 #mainauthor > a {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 15px;
   font-weight: bold;
   color: black;
@@ -182,8 +185,7 @@ header > .titlecontainer > div {
 }
 
 #most-popular > ul > li > a {
-  font-family: "nyt-cheltenham", "georgia", "times new roman", "times", "serif",
-    "calibri";
+  font-family: "nyt-cheltenham";
   font-size: 18px;
   color: black;
   text-decoration: none;
@@ -193,7 +195,7 @@ header > .titlecontainer > div {
 }
 
 .time {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 13px;
 }
 
@@ -214,7 +216,7 @@ section {
   text-align: left;
   width: 600px;
   margin: auto;
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
 }
 
 .subtitle {
@@ -276,7 +278,7 @@ img {
 }
 
 .text-flex {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-weight: 200;
   font-style: normal;
   margin-left: 15px;
@@ -332,7 +334,7 @@ img {
 }
 
 h2 {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 16px;
   text-align: left;
   font-weight: bold;
@@ -365,8 +367,7 @@ h2 {
 }
 
 .suggested-source {
-  font-family: "nyt-cheltenham-small", "georgia", "times new roman", "times",
-    "serif", "calibri";
+  font-family: "nyt-cheltenham-small";
   font-size: 10px;
   text-align: right;
   color: #999;
@@ -374,7 +375,7 @@ h2 {
 }
 
 .suggested-date {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 10px;
   color: #999;
   text-align: left;
@@ -382,7 +383,7 @@ h2 {
 }
 
 .article-footer-text {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-weight: 10;
   width: 90%;
   font-size: 12px;
@@ -392,7 +393,7 @@ h2 {
 footer {
   border-top: 1px solid #666;
   padding-top: 10px;
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 15px;
   width: 100%;
   margin: auto;
@@ -453,13 +454,13 @@ hr {
 .item {
   list-style: none;
   text-decoration: none;
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 14px;
   padding-top: 10px;
 }
 
 .icon-item {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 16px;
   font-weight: bolder;
 }
@@ -475,7 +476,7 @@ hr {
 }
 
 .list-header {
-  font-family: "nyt-franklin", "helvetica", "arial", "sans-serif", "calibri";
+  font-family: "nyt-franklin";
   font-size: 14px;
   font-weight: bolder;
   list-style: none;
