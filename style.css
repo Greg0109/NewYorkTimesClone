@@ -216,7 +216,7 @@ section {
   text-align: left;
   width: 600px;
   margin: auto;
-  font: nyt-franklin,sans-serif;
+  font-family: nyt-franklin,sans-serif;
 }
 
 .subtitle {
