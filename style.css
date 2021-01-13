@@ -19,15 +19,29 @@ nav {
     left: 0;
 }
 
+.nav-icon {
+    width: 20px;
+    padding: 5%;
+}
+
+#nav-bar-icons {
+    display: flex;
+    margin:auto;
+}
+
 #nav-text {
-    margin-left: 30px;
+    margin-right:70%;
     font-weight: 700;
+    width: 200px;
     letter-spacing: 0.7;
     line-height: 15px;
 }
 
 #nyt-logo {
-    width: 10%;
+    position: absolute;
+    left:40%;
+    width: 300px;
+    margin: auto;
 }
 
 #subscribe-button {
@@ -59,7 +73,7 @@ header {
     align-items: center;
 }
 
-header > hgroup > h1 {
+header > hgroup > div {
     font-family: 'nyt-cheltenham';
     font-style: italic;
     font-weight: bold;
@@ -70,11 +84,6 @@ header > hgroup > h1 {
     font-size: 40px;
     margin-left: auto;
     margin-right: auto;
-}
-
-h1 {
-    /* This is the title*/
-    text-align: center;
 }
 
 .social-buttons {
@@ -278,6 +287,8 @@ footer {
     padding-top: 10px;
     font-family: 'nyt-franklin';
     font-size: 15px;
+    width: 100%;
+    margin: auto;
 }
 
 hr {
@@ -299,14 +310,13 @@ footer > div > a {
     color: #666;
 }
 
-#nyt-logo {
+#nyt-logo-footer {
     width: 20%;
 }
 
 #main-footer-links, #bottom-links {
     list-style-type: none;
 }
-
 
 #bottom-links {
     display: flex;
@@ -330,10 +340,53 @@ footer > div > a {
     font-weight: bold;
 }
 
+#linksbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-header {
+    list-style: none;
+    font-weight: bold;
+}
+
+.item {
+    list-style: none;
+    text-decoration: none;
+}
+
 #copyright-text {
+    clear: left;
     text-align: center;
 }
 
 #copyright-text > a {
     color: #888;
 }
+
+#small-footer {
+    visibility: visible;
+}
+#wide-footer {
+    visibility: hidden;
+    display: none;
+}
+
+.item > a {
+    color: black;
+    text-decoration: none;
+}
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px), (min-width: 1400px) {
+    footer {
+        width: 60%;
+    }
+    #small-footer {
+        visibility: hidden;
+        display: none;
+    }
+    #wide-footer {
+        visibility: visible;
+        display: contents;
+    }
+  }
