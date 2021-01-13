@@ -1,6 +1,6 @@
 body {
   color: #333;
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   max-width: 100%;
 }
 
@@ -65,7 +65,7 @@ section > p {
 
 #subscribe-button > p {
   color: rgb(18, 18, 18);
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-weight: 500;
   font-size: 15px;
 }
@@ -76,7 +76,7 @@ header {
 }
 
 header > .titlecontainer > div {
-  font-family: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
+  font: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
   font-style: italic;
   font-weight: bold;
   width: 600px;
@@ -133,8 +133,7 @@ header > .titlecontainer > div {
 }
 
 .subscribe-item > a {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
-    "arial", "sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 11px;
   font-weight: 100;
   color: black;
@@ -152,6 +151,25 @@ header > .titlecontainer > div {
   text-decoration: none;
 }
 
+#mainauthor,
+#mainauthor > a {
+  font: "nyt-franklin, helvetica, arial, sans-serif";
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.suggested-title > a,
+#most-popular > ul > li > a {
+  font: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #nyt-logo-container > a,
 #nyt-logo-container-small > a {
   color: #666;
@@ -162,27 +180,8 @@ header > .titlecontainer > div {
   text-decoration: none;
 }
 
-.suggested-title > a,
-#most-popular > ul > li > a {
-  font-family: "nyt-cheltenham ,georgia , 'times new roman' , times, serif";
-  font-size: 18px;
-  color: black;
-  text-decoration: none;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-#mainauthor,
-#mainauthor > a {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
-  font-size: 15px;
-  font-weight: bold;
-  color: black;
-}
-
 .time {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 13px;
 }
 
@@ -203,7 +202,7 @@ section {
   text-align: left;
   width: 600px;
   margin: auto;
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
 }
 
 .subtitle {
@@ -265,7 +264,7 @@ img {
 }
 
 .text-flex {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-weight: 200;
   font-style: normal;
   margin-left: 15px;
@@ -321,8 +320,7 @@ img {
 }
 
 h2 {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
-    "arial", "sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 16px;
   text-align: left;
   font-weight: bold;
@@ -355,7 +353,7 @@ h2 {
 }
 
 .suggested-source {
-  font-family: "nyt-cheltenham-small ,georgia , 'times new roman' , times, serif";
+  font: "nyt-cheltenham-small ,georgia , 'times new roman' , times, serif";
   font-size: 10px;
   text-align: right;
   color: #999;
@@ -363,7 +361,7 @@ h2 {
 }
 
 .suggested-date {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 10px;
   color: #999;
   text-align: left;
@@ -371,7 +369,7 @@ h2 {
 }
 
 .article-footer-text {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-weight: 10;
   width: 90%;
   font-size: 12px;
@@ -381,7 +379,7 @@ h2 {
 footer {
   border-top: 1px solid #666;
   padding-top: 10px;
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 15px;
   width: 100%;
   margin: auto;
@@ -442,14 +440,13 @@ hr {
 .item {
   list-style: none;
   text-decoration: none;
-  font-family: "nyt-franklin, helvetica, arial, sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 14px;
   padding-top: 10px;
 }
 
 .icon-item {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
-    "arial", "sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 16px;
   font-weight: bolder;
 }
@@ -465,8 +462,7 @@ hr {
 }
 
 .list-header {
-  font-family: "nyt-franklin, helvetica, arial, sans-serif", "helvetica",
-    "arial", "sans-serif";
+  font: "nyt-franklin, helvetica, arial, sans-serif";
   font-size: 14px;
   font-weight: bolder;
   list-style: none;
