@@ -1,6 +1,12 @@
 # Project 1 - New York Times Article Copy
 
-> This is the project 1 in the Microverse course, yay!
+> This is the Project 1 in the Microverse course
+
+### View in browser
+[Link](https://greg0109.github.io/NewYorkTimesClone/)
+
+### Screenshot
+![Screenshot](assets/Screenshot.png)
 
 ## Built With
 
@@ -16,9 +22,8 @@
 
 👤 **Ryel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@ryelbanfield](https://github.com/ryelbanfield)
+- Twitter: [@ryelbanfield](https://twitter.com/ryelbanfield)
 
 ## Contributing
 
