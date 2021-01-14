@@ -7,6 +7,7 @@ body {
   color: #333;
   font-family: nyt-franklin, sans-serif;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
@@ -61,18 +62,13 @@ nav {
   font-weight: 700;
   line-height: 10px;
   letter-spacing: 0.05em;
+  width: 130px;
+  height: 30px;
 }
 
 section > p {
   font-size: 20px;
   line-height: 1.4em;
-}
-
-#subscribe-button > p {
-  color: rgb(18, 18, 18);
-  font-family: nyt-franklin, sans-serif;
-  font-weight: 500;
-  font-size: 15px;
 }
 
 header {

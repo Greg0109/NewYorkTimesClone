@@ -5,6 +5,9 @@
 ### View in browser
 [Link](https://greg0109.github.io/NewYorkTimesClone/)
 
+### Screenshot
+![Screenshot](assets/Screenshot.png)
+
 ## Built With
 
 - HTML
