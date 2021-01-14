@@ -28,4 +28,4 @@ Feel free to check the [issues page](issues/).
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE) licensed.
