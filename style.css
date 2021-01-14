@@ -43,20 +43,23 @@ nav {
 
 #nyt-logo {
   position: absolute;
-  left: 40%;
   width: 300px;
   top: 0;
-  margin: auto;
+  right: 0%;
+  margin-right: 40%;
 }
 
 #subscribe-button {
   display: flex;
-  margin-right: 30px;
+  margin-left: 30px;
+  position: absolute;
+  right:0;
+  top: 0;
 }
 
 #subscribe-button > button {
   margin: 10px;
-  margin-left: 30px;
+  margin-left: 10px;
   border-radius: 3px;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -65,7 +68,7 @@ nav {
   font-weight: 700;
   line-height: 10px;
   letter-spacing: 0.05em;
-  width: 130px;
+  width: 120px;
   height: 30px;
 }
 
@@ -531,7 +534,6 @@ hr {
   footer {
     width: 60%;
   }
-
   #small-footer {
     visibility: hidden;
     display: none;
