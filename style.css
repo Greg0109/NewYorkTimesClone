@@ -20,6 +20,7 @@ nav {
   border-bottom: 1px solid #e2e2e2;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .nav-icon {
@@ -55,7 +56,7 @@ nav {
 
 #subscribe-button > button {
   margin: 10px;
-  margin-left:30px;
+  margin-left: 30px;
   border-radius: 3px;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -66,7 +67,6 @@ nav {
   letter-spacing: 0.05em;
   width: 130px;
   height: 30px;
-
 }
 
 section > p {
@@ -75,19 +75,36 @@ section > p {
 }
 
 .sideeditorspick {
-  width: 400px;
+  width: 300px;
   height: 200px;
   margin-left: 600px;
+  position: absolute;
+  z-index: 0;
+}
+
+.sideeditorspick > li > div > a {
+  text-decoration: none;
+  color: black;
+}
+
+.sideeditorspicktitle {
+  font-family: nyt-franklin, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .sideeditorspicktext {
-  float: right;
+  margin-bottom: 80px;
+  font-family: nyt-cheltenham-small, sans-serif;
+  font-size: 14px;
 }
 
 .sideeditorspickimage {
   width: 100px;
   height: 100px;
-  float: bottom;
+  float: left;
+  clear: both;
+  margin-right: 10px;
 }
 
 .sideeditorspick > li {
