@@ -528,6 +528,25 @@ hr {
   display: none;
 }
 
+form {
+  align-items: center;
+  text-align: left;
+  right: 0%;
+  margin-left: 30%;
+}
+
+#commentsubmitbutton {
+  color: white;
+  width: 300px;
+  height: 35px;
+  font-weight: bold;
+  background-color: #567b95;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
 @media all and (max-width: 699px) and (min-width: 520px),
   (min-width: 1151px),
   (min-width: 1400px) {
@@ -557,5 +576,9 @@ hr {
 
   #most-popular {
     width: 17.9%;
+  }
+  
+  form{
+    margin-left: 40%;
   }
 }
