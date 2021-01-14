@@ -44,6 +44,7 @@ nav {
   position: absolute;
   left: 40%;
   width: 300px;
+  top: 0;
   margin: auto;
 }
 
@@ -54,6 +55,7 @@ nav {
 
 #subscribe-button > button {
   margin: 10px;
+  margin-left:30px;
   border-radius: 3px;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -64,11 +66,32 @@ nav {
   letter-spacing: 0.05em;
   width: 130px;
   height: 30px;
+
 }
 
 section > p {
   font-size: 20px;
   line-height: 1.4em;
+}
+
+.sideeditorspick {
+  width: 400px;
+  height: 200px;
+  margin-left: 600px;
+}
+
+.sideeditorspicktext {
+  float: right;
+}
+
+.sideeditorspickimage {
+  width: 100px;
+  height: 100px;
+  float: bottom;
+}
+
+.sideeditorspick > li {
+  list-style-type: none;
 }
 
 header {
@@ -399,14 +422,7 @@ hr {
   opacity: 70%;
 }
 
-#nyt-logo-container {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: auto;
-}
-
-#nyt-logo-container-small {
+.nyt-logo-container {
   display: flex;
   justify-content: space-between;
   width: 95%;
